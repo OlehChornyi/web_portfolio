@@ -38,3 +38,8 @@ ScrollReveal().reveal(".header__btns", {
     ...scrollRevealOption,
     delay: 1500,
 });
+
+ScrollReveal().reveal(".project__card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
