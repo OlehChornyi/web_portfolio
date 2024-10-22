@@ -169,6 +169,36 @@ body{
     background-color: var(--white);
 }
 
+.skill__container{
+    padding-block: 0;
+}
+
+.skill__container h2{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: var(--gradient-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.skill__flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skill__flex span{
+    font-size: 2.5rem;
+    background: var(--gradient-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (width > 768px){
     nav{
         background-color: var(--primary-color);
@@ -201,5 +231,9 @@ body{
         background-color: transparent;
         transform: none;
         z-index: 1;
+    }
+
+    .skill__flex{
+        gap: 2rem;
     }
 }
